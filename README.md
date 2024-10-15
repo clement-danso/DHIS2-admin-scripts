@@ -18,9 +18,10 @@ These scripts work for the DHIS2 installation described in the [DHIS2 Tools NG r
 To use the scripts in this repository, clone the repository to your local machine:
 
 
+```bash
 git clone https://github.com/yourusername/dhis2-scripts.git
 cd dhis2-scripts
-
+```
 
 
 ## Usage
