@@ -2,8 +2,8 @@
 
 # Replace 'proxy' with the actual container name if needed
 container_name="proxy"
-domain="asbc.ghs-hpd-timtooni.org"
-email="clement.quoda@gmail.com"
+domain=${DHIS2_URL}
+email=${EMAIL}
 
 # Function to handle errors
 handle_error() {

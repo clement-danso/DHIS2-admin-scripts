@@ -2,13 +2,16 @@
 
 This repository contains a collection of scripts designed to enhance the functionality and usability of the DHIS2 platform. These scripts can be used for data manipulation, automation of tasks, and integration with other systems.
 
+These scripts work for the DHIS2 installation described in the [DHIS2 Tools NG repository](https://github.com/bobjolliffe/dhis2-tools-ng).
+
+
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Scripts Overview](#scripts-overview)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Installation
 
@@ -20,10 +23,15 @@ git clone https://github.com/yourusername/dhis2-scripts.git
 cd dhis2-scripts
 
 
-## Set environment variables for sensitive information
-export DHIS2_USERNAME='your_username'
-export DHIS2_PASSWORD='your_password'
-export DHIS2_URL='https://your_dhis2_instance_url'
+## Environment Variables for Sensitive Information
+
+The following environment variables are used in the scripts for sensitive information:
+
+- `DHIS2_USERNAME`: Your DHIS2 username.
+- `DHIS2_PASSWORD`: Your DHIS2 password.
+- `DHIS2_URL`: The URL of your DHIS2 instance.
+
+Please ensure these variables are set before running the scripts.
 
 
 
@@ -33,9 +41,10 @@ Each script has its own usage instructions. Please refer to the comments at the 
 
 ## Scripts Overview
 
-- **script1.js**: Description of what script1 does.
-- **script2.py**: Description of what script2 does.
-- **script3.sh**: Description of what script3 does.
+- **db_backup.sh**: Creates a backup of the database and uploads it to S3 storage.
+- **reboot_server.sh**: Reboots the server with a 5-second delay.
+- **restore.sh**: Restores a database from a gzip-compressed dump file.
+- **renewssl.sh**: Renews the SSL certificate for a specified domain.
 
 ## Contributing
 
