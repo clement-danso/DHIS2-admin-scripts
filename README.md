@@ -23,17 +23,6 @@ git clone https://github.com/yourusername/dhis2-scripts.git
 cd dhis2-scripts
 
 
-## Environment Variables for Sensitive Information
-
-The following environment variables are used in the scripts for sensitive information:
-
-- `DHIS2_USERNAME`: Your DHIS2 username.
-- `DHIS2_PASSWORD`: Your DHIS2 password.
-- `DHIS2_URL`: The URL of your DHIS2 instance.
-
-Please ensure these variables are set before running the scripts.
-
-
 
 ## Usage
 

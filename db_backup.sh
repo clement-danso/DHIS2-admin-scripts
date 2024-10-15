@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Database credentials
-#LXC_CONTAINER="dw"
-DB_NAME="dw"
-DB_USER="root"
-#DB_PASSWORD="your_database_password"
+DB_NAME="${DB_NAME}"  # Must be set in the environment
+DB_USER="${DB_USER}"  # Must be set in the environment
+#DB_PASSWORD="${DB_PASSWORD}"  # Must be set in the environment
+
 
 
 # Log file path
